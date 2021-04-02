@@ -1,0 +1,108 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+/* Ketik code Anda dibawah */
+.header {
+    height: 90px;
+    background-color: #e4e4e4;
+}
+
+.header-logo {
+    font-size: 36px;
+    padding: 20px 40px;
+    font-weight: bold;
+    float: left;
+}
+
+.header-list li {
+    font-weight: 600;
+    padding: 33px 20px;
+    float: left;
+}
+
+.header-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-list li a:hover {
+    color: red;
+}
+
+.banner {
+    height: 69px;
+    background-color: #191f62;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 30px;
+}
+
+.banner a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner a:hover {
+    color: red;
+}
+
+.main {
+    padding: 100px 80px;
+}
+
+.section-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #dee7ec;
+}
+
+input, textarea {
+    width: 400px;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+.footer {
+    height: 120px;
+    background-color: #191f62;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer-logo {
+    font-size: 32px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    margin-bottom: 20px;
+}
